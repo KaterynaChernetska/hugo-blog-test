@@ -1,7 +1,7 @@
 baseURL = 'https://katerynachernetska.github.io/hugo-blog-test/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-
+paginate = 2
 
 
 [menu]

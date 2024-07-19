@@ -55,3 +55,71 @@ main {
 .post-link:hover {
   text-decoration: underline;
 }
+
+body {
+  color: #212121;
+  background: #fafafa;
+  font: normal 16px/1.5 "Open Sans", Helvetica, sans-serif;
+}
+
+h2 {
+  font-weight: 500;
+  padding: 0 15px;
+  span {
+    color: red;
+  }
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  padding: 0.75rem 1rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  /* border-radius: 4px; */
+}
+
+.homepage .page-link,
+.listing .page-link {
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  border-radius: 4px;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  text-decoration: none;
+  cursor: auto;
+  background-color: #fff;
+  border-radius: 4px;
+  border-color: #dee2e6;
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-decoration: none;
+}
+
+.page-item:hover {
+  background-color: #dee2e6;
+  border-radius: 4px;
+}
